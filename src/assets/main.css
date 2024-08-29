@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Light mode styles */
+body {
+    background-color: #f9fafb;
+    color: #1f2937;
+  }
+  
+  /* Dark mode styles */
+  .dark body {
+    background-color: #1f2937;
+    color: #f9fafb;
+  }
+  
+  .dark .navbar {
+    background-color: #1e293b;
+    color: #e5e7eb;
+  }
+  
+  .dark .dropdown {
+    background-color: #1f2937;
+    color: #e5e7eb;
+  }
+  
+  
